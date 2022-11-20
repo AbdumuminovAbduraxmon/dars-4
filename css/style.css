@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.header{
+    padding: 8px 0;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    list-style-type: none;
+    display: flex;
+}
+.header__item{
+    margin-left: 32px;
+
+}
+.header__item a{
+    text-decoration: none;
+    color: black
+}
+.header__item .header__tel{
+    padding: 8px 16px;
+    background: #00BAFC;
+    border-radius: 5px;
+    color: white;
+}
+section{
+    margin: 50px 25px;
+}
+
+#boshsahifa{
+    background-color: red;
+}
+#xizmatlar{
+    background-color: yellow;
+}
+#portfolio{
+    background-color: blue;
+}
+#jamoa{
+    background-color: darkblue;
+}
+#blog{
+    background-color:aqua;     
+}
+#kontaktlar{
+    background-color: green;
+}
